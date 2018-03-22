@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring: 
+  profiles:
+  application:
+    name: microconfig-test-dev
+---
+spring: 
+  profiles:
+  application:
+    name: microconfig-test-default  
