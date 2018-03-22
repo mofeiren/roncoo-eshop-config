@@ -4,11 +4,11 @@ spring:
       - dev
 ---
 spring: 
-  profiles:
+  profiles: dev
   application:
     name: microconfig-test-dev
 ---
 spring: 
-  profiles:
+  profiles: default
   application:
     name: microconfig-test-default  
