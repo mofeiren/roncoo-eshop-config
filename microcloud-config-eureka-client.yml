@@ -11,18 +11,18 @@ server:
   port: 7001
 security:
   basic:
-    enabled: true   # ÆôÓÃ°²È«ÈÏÖ¤´¦Àí
+    enabled: true   # å¯ç”¨å®‰å…¨è®¤è¯å¤„ç†
   user:
-    name: edmindev     # ÓÃ»§Ãû
-    password: 852456  # ÃÜÂë
+    name: edmindev     # ç”¨æˆ·å
+    password: 852456  # å¯†ç 
 eureka: 
-  client: # ¿Í»§¶Ë½øĞĞEureka×¢²áµÄÅäÖÃ
+  client: # å®¢æˆ·ç«¯è¿›è¡ŒEurekaæ³¨å†Œçš„é…ç½®
     service-url:
       defaultZone: http://edmindev:852456@eureka-7001.com:7001/eureka
-    register-with-eureka: false    # µ±Ç°µÄÎ¢·şÎñ²»×¢²áµ½eurekaÖ®ÖĞ
-    fetch-registry: false     # ²»Í¨¹ıeureka»ñÈ¡×¢²áĞÅÏ¢
-  instance: # eureakÊµÀı¶¨Òå
-    hostname: eureka-7001.com # ¶¨ÒåEurekaÊµÀıËùÔÚµÄÖ÷»úÃû³Æ
+    register-with-eureka: false    # å½“å‰çš„å¾®æœåŠ¡ä¸æ³¨å†Œåˆ°eurekaä¹‹ä¸­
+    fetch-registry: false     # ä¸é€šè¿‡eurekaè·å–æ³¨å†Œä¿¡æ¯
+  instance: # eureakå®ä¾‹å®šä¹‰
+    hostname: eureka-7001.com # å®šä¹‰Eurekaå®ä¾‹æ‰€åœ¨çš„ä¸»æœºåç§°
 ---
 spring:
   profiles: beta
@@ -32,15 +32,15 @@ server:
   port: 7001
 security:
   basic:
-    enabled: true   # ÆôÓÃ°²È«ÈÏÖ¤´¦Àí
+    enabled: true   # å¯ç”¨å®‰å…¨è®¤è¯å¤„ç†
   user:
-    name: edminbeta     # ÓÃ»§Ãû
-    password: 852456  # ÃÜÂë
+    name: edminbeta     # ç”¨æˆ·å
+    password: 852456  # å¯†ç 
 eureka: 
-  client: # ¿Í»§¶Ë½øĞĞEureka×¢²áµÄÅäÖÃ
+  client: # å®¢æˆ·ç«¯è¿›è¡ŒEurekaæ³¨å†Œçš„é…ç½®
     service-url:
       defaultZone: http://edminbeta:852456@eureka-7001.com:7001/eureka
-    register-with-eureka: false    # µ±Ç°µÄÎ¢·şÎñ²»×¢²áµ½eurekaÖ®ÖĞ
-    fetch-registry: false     # ²»Í¨¹ıeureka»ñÈ¡×¢²áĞÅÏ¢
-  instance: # eureakÊµÀı¶¨Òå
-    hostname: eureka-7001.com # ¶¨ÒåEurekaÊµÀıËùÔÚµÄÖ÷»úÃû³Æ
+    register-with-eureka: false    # å½“å‰çš„å¾®æœåŠ¡ä¸æ³¨å†Œåˆ°eurekaä¹‹ä¸­
+    fetch-registry: false     # ä¸é€šè¿‡eurekaè·å–æ³¨å†Œä¿¡æ¯
+  instance: # eureakå®ä¾‹å®šä¹‰
+    hostname: eureka-7001.com # å®šä¹‰Eurekaå®ä¾‹æ‰€åœ¨çš„ä¸»æœºåç§°
